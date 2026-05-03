@@ -56,7 +56,7 @@ export default function TaskItem({ task, onToggle, onTextChange }: Props) {
           className={`w-full bg-transparent border-none outline-none text-base transition-colors duration-200 placeholder:text-[#6B6560]/50 ${
             task.done ? "text-[#6B6560]" : "text-[#1A1A1A]"
           }`}
-          style={{ fontFamily: "var(--font-inter)" }}
+          style={{ fontFamily: "var(--font-annie)" }}
         />
         {task.done && (
           <span

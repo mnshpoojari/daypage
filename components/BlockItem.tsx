@@ -14,13 +14,13 @@ export default function BlockItem({ block, onDelete }: Props) {
       <div className="flex items-center gap-3 flex-1 min-w-0">
         <span
           className="text-sm text-[#6B6560] tabular-nums flex-shrink-0"
-          style={{ fontFamily: "var(--font-inter)" }}
+          style={{ fontFamily: "var(--font-annie)" }}
         >
           {formatTime(block.startTime)} – {formatTime(block.endTime)}
         </span>
         <span
           className="text-base text-[#1A1A1A] truncate"
-          style={{ fontFamily: "var(--font-inter)" }}
+          style={{ fontFamily: "var(--font-annie)" }}
         >
           {block.label}
         </span>
