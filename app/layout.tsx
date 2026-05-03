@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Lora, Inter } from "next/font/google";
+import { Annie_Use_Your_Telescope, Inter } from "next/font/google";
 import "./globals.css";
 
-const lora = Lora({
-  variable: "--font-lora",
+const annie = Annie_Use_Your_Telescope({
+  variable: "--font-annie",
   subsets: ["latin"],
+  weight: "400",
   display: "swap",
 });
 
@@ -25,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lora.variable} ${inter.variable}`}>
+    <html lang="en" className={`${annie.variable} ${inter.variable}`}>
       <body>{children}</body>
     </html>
   );

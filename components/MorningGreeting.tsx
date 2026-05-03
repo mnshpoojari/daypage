@@ -30,7 +30,7 @@ export default function MorningGreeting({ onDismiss }: Props) {
     >
       <p
         className="text-2xl text-[#1A1A1A] tracking-wide"
-        style={{ fontFamily: "var(--font-lora)" }}
+        style={{ fontFamily: "var(--font-annie)" }}
       >
         Good morning. New day.
       </p>

@@ -63,13 +63,13 @@ export default function DayPage() {
             <header className="mb-8">
               <p
                 className="text-sm text-[#6B6560] uppercase tracking-widest"
-                style={{ fontFamily: "var(--font-lora)" }}
+                style={{ fontFamily: "var(--font-annie)" }}
               >
                 {dayOfWeek}
               </p>
               <h1
                 className="text-3xl text-[#1A1A1A] mt-1"
-                style={{ fontFamily: "var(--font-lora)" }}
+                style={{ fontFamily: "var(--font-annie)" }}
               >
                 {date}
               </h1>
@@ -81,7 +81,7 @@ export default function DayPage() {
                 className={`text-xs uppercase tracking-widest mb-3 transition-colors duration-300 ${
                   allTasksDone ? "text-[#4A6741]" : "text-[#6B6560]"
                 }`}
-                style={{ fontFamily: "var(--font-inter)" }}
+                style={{ fontFamily: "var(--font-annie)" }}
               >
                 {allTasksDone ? "Done for today." : "Must Do"}
               </p>
@@ -98,7 +98,7 @@ export default function DayPage() {
             <section className="mb-6">
               <p
                 className="text-xs uppercase tracking-widest text-[#6B6560] mb-3"
-                style={{ fontFamily: "var(--font-inter)" }}
+                style={{ fontFamily: "var(--font-annie)" }}
               >
                 Time Blocks
               </p>
@@ -115,7 +115,7 @@ export default function DayPage() {
             <section className="mb-10">
               <p
                 className="text-xs uppercase tracking-widest text-[#6B6560] mb-3"
-                style={{ fontFamily: "var(--font-inter)" }}
+                style={{ fontFamily: "var(--font-annie)" }}
               >
                 One Note
               </p>
@@ -127,7 +127,7 @@ export default function DayPage() {
             {/* Footer */}
             <footer
               className="text-xs text-[#6B6560]/70"
-              style={{ fontFamily: "var(--font-inter)" }}
+              style={{ fontFamily: "var(--font-annie)" }}
             >
               <span>Resets at midnight</span>
               <span className="mx-2">·</span>

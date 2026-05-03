@@ -19,7 +19,7 @@ export default function SpiralBinding() {
     svg.setAttribute("viewBox", `0 0 ${width} 38`);
 
     const rc = rough.svg(svg);
-    const ringCount = Math.max(Math.floor(width / 32), 1);
+    const ringCount = Math.max(Math.floor(width / 52), 1);
     const spacing = width / ringCount;
 
     for (let i = 0; i < ringCount; i++) {
